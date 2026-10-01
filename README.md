@@ -13,7 +13,7 @@ Teclado para Android com recursos de IA, correção de texto e tradução.
 1. Baixe o APK e abra o arquivo no seu Android.
 2. Se o Android solicitar, autorize a instalação pelo aplicativo usado para abrir o arquivo.
 3. Siga as instruções do Keyvya para ativar o teclado.
-4. Para usar os recursos de IA, configure sua própria chave Gemini nas configurações do aplicativo.
+4. Para usar os recursos de IA, siga as instruções do aplicativo e conceda as permissões solicitadas.
 
 Requer Android 7.0 ou superior.
 
