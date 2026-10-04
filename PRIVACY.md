@@ -1,7 +1,7 @@
 # Política de Privacidade — Keyvya
 
 **Última atualização:** 4 de outubro de 2026
-
+**Contato:** suport.techworldbr@gmail.com
 O Keyvya é um teclado para Android com recursos de inteligência artificial, desenvolvido por **Tech World BR**. Esta política explica quais dados o aplicativo usa, para quê e com quem são compartilhados.
 
 **Contato:** contato.techworldbr@gmail.com
