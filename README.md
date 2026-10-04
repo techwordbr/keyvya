@@ -43,4 +43,4 @@ Este repositório disponibiliza apenas os instaladores do aplicativo. O código-
 
 Os arquivos automáticos "Source code (zip)" e "Source code (tar.gz)" do GitHub contêm apenas os arquivos deste repositório de distribuição; não incluem o código-fonte do aplicativo.
 
-APK 1.1 — SHA-256: `2fe4f8b1fc8f71de0083705a6dc0390d7f0b2ca22d6a9f365bd57d83724ec3eb`
+O código de verificação (SHA-256) de cada versão está na página de [Releases](https://github.com/techwordbr/keyvya/releases).
