@@ -1,61 +1,67 @@
 # Política de Privacidade — Keyvya
 
-**Última atualização:** 4 de outubro de 2026
+**Última atualização:** 6 de outubro de 2026
 
 O Keyvya é um teclado para Android com recursos de inteligência artificial, desenvolvido por **Tech World BR**. Esta política explica quais dados o aplicativo usa, para quê e com quem são compartilhados.
 
 **Contato:** suport.techworldbr@gmail.com
 
+> Esta política vale para a versão 1.4 em diante e para a versão da Google Play. As versões 1.3 e anteriores, distribuídas pelo GitHub, também podiam enviar o texto das ações de IA ao Google Gemini.
+
 ## Resumo
 
 - O Keyvya **não tem cadastro**, não cria conta e não exibe anúncios.
-- O que você digita **não é gravado nem enviado** pelo teclado. O texto só sai do seu aparelho quando **você toca em um recurso de IA**, e apenas o trecho usado naquela ação.
-- O Keyvya **não vende** dados e não os compartilha para publicidade.
+- O que você digita **não é gravado nem enviado** pelo teclado.
+- A inteligência artificial (**Keyvya AI**) roda **dentro do seu celular**. O texto que você usa nas funções de IA **não sai do aparelho**.
+- O Keyvya **não vende** dados e não os compartilha com terceiros.
 
 ## Dados que o aplicativo usa
 
-### 1. Texto enviado para os recursos de IA
+### 1. Texto usado nos recursos de IA
 
-Quando você usa uma função de IA (corrigir, reescrever, mudar o tom, traduzir, resumir, explicar ou gerar resposta), o texto daquela ação é enviado ao **Google Gemini**, por meio do serviço **Firebase AI Logic** do Google, para gerar o resultado. Antes do primeiro uso, o teclado pede a sua permissão.
+As funções de IA (corrigir, reescrever, mudar o tom, traduzir, resumir, explicar ou gerar resposta) usam a **Keyvya AI**, um modelo de cerca de 1,6 GB que você baixa dentro do app. Depois de baixado, ele funciona sem internet e processa o texto **somente no seu celular**. Antes do primeiro uso, o teclado pede a sua permissão.
 
-- O envio acontece **somente quando você toca na ação**. Se você ativar o modo de **tradução automática**, o texto da mensagem que você está escrevendo é traduzido ao acionar a tradução, enquanto o modo estiver ligado.
-- O Keyvya não guarda esses textos em servidor próprio.
-- O processamento pelo Google segue os termos e a política de privacidade do Google.
+Sem a Keyvya AI baixada, as funções de IA ficam desligadas. O teclado, a tradução e a Lupa continuam funcionando.
 
-### 2. Lupa (leitura de texto na tela)
+### 2. Download da Keyvya AI
+
+O arquivo da Keyvya AI é baixado do serviço Hugging Face. Como em qualquer download, esse serviço recebe dados técnicos da conexão, como o endereço IP. Nenhum texto seu é enviado nesse processo.
+
+### 3. Lupa (leitura de texto na tela)
 
 A Lupa é um recurso opcional. Ela usa a permissão de **sobreposição de tela** para mostrar a lente flutuante e um **serviço de acessibilidade** para ler o texto que está sob a lente.
 
 - A leitura acontece **somente quando você solta a lente** sobre um texto.
 - O serviço **não acompanha** o que acontece na tela em segundo plano e não executa toques ou ações em outros aplicativos.
 - **Campos de senha não são lidos.**
-- O texto lido é traduzido no próprio aparelho sempre que possível. Quando necessário, é enviado ao Google Gemini, como descrito no item 1.
+- O texto lido é traduzido no próprio aparelho. Ele não é guardado nem enviado para a internet.
 
-### 3. Microfone (ditado por voz)
+### 4. Área de transferência e sugestões de palavras
+
+- O teclado mostra os últimos textos copiados para você colar com um toque. Essa lista fica **apenas na memória do aparelho**, é apagada quando o teclado é encerrado e não é enviada a ninguém. Conteúdo marcado como sensível pelo Android, como senhas, não é guardado.
+- As sugestões de palavras usam listas de palavras que já vêm dentro do aplicativo. O que você digita não é enviado para gerar sugestões, e nada é sugerido em campos de senha.
+
+### 5. Microfone (ditado por voz)
 
 O microfone é usado apenas quando você toca na tecla de ditado. O áudio é processado pelo serviço de reconhecimento de fala do Android no seu aparelho, que pode enviá-lo ao Google conforme as configurações do seu dispositivo. O Keyvya não grava nem armazena o áudio.
 
-### 4. Tradução no aparelho
+### 6. Tradução no aparelho
 
-O Keyvya usa o Google ML Kit para identificar o idioma e traduzir textos no próprio aparelho. Para isso, baixa pacotes de idioma pela internet. O ML Kit pode coletar dados técnicos de uso e diagnóstico, conforme a política do Google.
+O Keyvya usa o Google ML Kit para identificar o idioma e traduzir textos no próprio aparelho. Para isso, baixa pacotes de idioma pela internet. O ML Kit pode coletar dados técnicos de uso e diagnóstico e um identificador da instalação, conforme a política do Google. O texto traduzido não faz parte desses dados.
 
-### 5. Configurações guardadas no aparelho
+### 7. Configurações guardadas no aparelho
 
-Ficam salvas apenas no seu aparelho: tema, idiomas, vibração e sons, preferências dos recursos (incluindo a opção de histórico local, desativada por padrão) e, se você optar por usar uma chave própria do Gemini, essa chave. Esses dados podem ser incluídos no backup do Android da sua conta Google, se o backup estiver ativado.
-
-### 6. Verificação de integridade
-
-Na versão distribuída pela Google Play, o aplicativo usa o **Firebase App Check** com **Play Integrity** para confirmar que as solicitações de IA vêm do aplicativo original. Esse processo envia ao Google informações técnicas sobre o aplicativo e o dispositivo, sem o conteúdo que você digita.
+Ficam salvas apenas no seu aparelho: tema, idiomas, tamanho do teclado, vibração e sons, e preferências dos recursos (incluindo a opção de histórico local, desativada por padrão). Esses dados podem ser incluídos no backup do Android da sua conta Google, se o backup estiver ativado.
 
 ## Compartilhamento
 
-Os dados descritos acima são compartilhados apenas com o **Google**, como prestador dos serviços de IA, tradução, reconhecimento de fala e verificação de integridade. O Keyvya não compartilha dados com outros terceiros.
+O Keyvya não compartilha o que você digita com ninguém. Os únicos dados que saem do aparelho são técnicos: os dados de diagnóstico e o identificador de instalação coletados pelo Google ML Kit, e os dados de conexão recebidos pelo Hugging Face e pelo Google durante os downloads da Keyvya AI e dos pacotes de idioma.
 
 ## Permissões
 
 | Permissão | Para que serve |
 |---|---|
-| Internet e estado da rede | Recursos de IA e download de idiomas |
+| Internet e estado da rede | Download da Keyvya AI e dos pacotes de idioma |
 | Método de entrada (teclado) | Funcionar como teclado do sistema |
 | Sobreposição de tela | Mostrar a Lupa flutuante |
 | Acessibilidade | Ler o texto sob a Lupa quando você a usa |
@@ -66,7 +72,7 @@ Todas as permissões opcionais podem ser desativadas nas configurações do Andr
 
 ## Retenção e exclusão
 
-O Keyvya não mantém dados seus em servidores próprios. Para apagar as configurações guardadas no aparelho, limpe os dados do aplicativo nas configurações do Android ou desinstale o Keyvya.
+O Keyvya não mantém dados seus em servidores. Para apagar as configurações e a Keyvya AI guardadas no aparelho, limpe os dados do aplicativo nas configurações do Android ou desinstale o Keyvya.
 
 ## Crianças
 
