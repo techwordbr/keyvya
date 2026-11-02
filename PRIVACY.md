@@ -1,6 +1,6 @@
 # Política de Privacidade — Keyvya
 
-**Última atualização:** 6 de outubro de 2026
+**Última atualização:** 2 de novembro de 2026
 
 O Keyvya é um teclado para Android com recursos de inteligência artificial, desenvolvido por **Tech World BR**. Esta política explica quais dados o aplicativo usa, para quê e com quem são compartilhados.
 
@@ -11,7 +11,7 @@ O Keyvya é um teclado para Android com recursos de inteligência artificial, de
 ## Resumo
 
 - O Keyvya **não tem cadastro**, não cria conta e não exibe anúncios.
-- O que você digita **não é gravado nem enviado** pelo teclado.
+- O que você digita **não é enviado** pelo teclado. Para melhorar as sugestões, ele guarda palavras soltas que você usa **somente no seu celular**, e isso pode ser desligado.
 - A inteligência artificial (**Keyvya AI**) roda **dentro do seu celular**. O texto que você usa nas funções de IA **não sai do aparelho**.
 - O Keyvya **não vende** dados e não os compartilha com terceiros.
 
@@ -40,6 +40,7 @@ A Lupa é um recurso opcional. Ela usa a permissão de **sobreposição de tela*
 
 - O teclado mostra os últimos textos copiados para você colar com um toque. Essa lista fica **apenas na memória do aparelho**, é apagada quando o teclado é encerrado e não é enviada a ninguém. Conteúdo marcado como sensível pelo Android, como senhas, não é guardado.
 - As sugestões de palavras usam listas de palavras que já vêm dentro do aplicativo. O que você digita não é enviado para gerar sugestões, e nada é sugerido em campos de senha.
+- O teclado aprende com o seu uso: guarda as palavras que você escreve e quais costumam vir em seguida, sem guardar mensagens inteiras. Isso fica em um arquivo privado do aplicativo, **apenas no aparelho**, fora do backup do Android, e não é enviado a ninguém. Nada é aprendido em campos de senha, de e-mail, de endereço da internet ou em campos que pedem ao teclado para não aprender, como os do modo anônimo. Em Preferências de Digitação você pode desligar esse recurso e apagar tudo o que foi aprendido.
 
 ### 5. Microfone (ditado por voz)
 
